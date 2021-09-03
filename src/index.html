@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HackPackers</title>
   <script>
-    var getVar = location.search;
-    if(getVar && getVar.indexOf('prod')>0){
-      console.log('loading the production script');
+    // var getVar = location.search;
+    // if(getVar && getVar.indexOf('prod')>0){
+      // console.log('loading the production script');
       document.write('<script src="https://binaries.webex.com/static-content-pipeline/webex-embedded-app/v1/webex-embedded-app-sdk.js" defer><\/script>');
-    } else {
-      console.log('loading the emulator script')
-      document.write('<script src="https://webexsamples.github.io/EmbeddedAppSample/WebexEmbeddedAppEmulatorFramework.js" defer><\/script>');
-    }
+    // } else {
+    //   console.log('loading the emulator script')
+    //   document.write('<script src="https://webexsamples.github.io/EmbeddedAppSample/WebexEmbeddedAppEmulatorFramework.js" defer><\/script>');
+    // }
   </script>
 </head>
 <body>

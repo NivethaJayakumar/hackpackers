@@ -12,7 +12,7 @@ setTimeout(async () => {
   try {
     await embeddedAppSdk.onReady();
 
-    ReactDOM.render(<App />,
+    ReactDOM.render(<App embeddedAppSdk={embeddedAppSdk}/>,
       document.getElementById('root')
     );
   } catch(e) {
