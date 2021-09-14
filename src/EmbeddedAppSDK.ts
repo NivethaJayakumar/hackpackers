@@ -27,6 +27,10 @@ export default class  {
     return this.app.onReady();
   }
 
+  isAppBeingShared() {
+    return this.app.isShared;
+  }
+
   async getUser() {
     return this.app.context.getUser();
   }
@@ -48,4 +52,3 @@ export default class  {
   }
 
 }
-
