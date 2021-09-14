@@ -25,7 +25,7 @@ export const createBrowser = async (
 };
 
 
-export const remoteBrowser = async (instanceURN: string): Promise<void> => {
+export const removeBrowser = async (instanceURN: string): Promise<void> => {
   try {
     axiosInstance.delete(`/remoteHQ/${instanceURN}`);
   } catch(error) {
