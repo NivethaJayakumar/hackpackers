@@ -17,3 +17,5 @@ export const createRoom = async (name: string, allowGuestAccess='true', imageURL
     console.log(`RemoteHQ --- create room, ${error}`);
   }
 };
+
+https://api.remotehq.com/v1/cb

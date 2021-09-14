@@ -1,0 +1,29 @@
+.browser {
+  display: flex;
+  flex-direction: column;
+
+  iframe {
+    border: none;
+    position: relative;
+    width: 48rem;
+    height: 53rem;
+  }
+
+  .showIFrame {
+    display: block;
+  }
+
+  .hideIFrame {
+    display: none;
+  }
+
+  .input {
+    margin-top: 1.5rem;
+  }
+
+  .shareOthers {
+    position: absolute;
+    z-index: 1;
+    margin: 2rem;
+  }
+}
